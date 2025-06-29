@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+.license-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.license-card h2 {
+    color: #0056b3;
+    margin-top: 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    cursor: pointer; /* Make heading clickable */
+}
+
+.license-card h2:hover {
+    text-decoration: underline;
+}
+
+.license-card h3 {
+    color: #007bff;
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.license-card h4 {
+    color: #0056b3;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.license-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.license-card strong {
+    color: #555;
+}
+
+.permission-section,
+.action-item,
+.notice-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.permission-section {
+    margin-left: 10px;
+    border-left: 3px solid #007bff;
+}
+
+.action-item,
+.notice-item {
+    margin-left: 20px;
+    border-left: 2px solid #5cb85c;
+}
+
+.condition-node,
+.condition-leaf {
+    background-color: #f0f8ff;
+    border: 1px solid #cce5ff;
+    border-radius: 3px;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.condition-node {
+    font-weight: bold;
+    color: #004085;
+}
+
+.condition-leaf {
+    color: #004085;
+}
+
+.license-content {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.license-details {
+    display: none; /* Hidden by default */
+}
+
+.license-details.expanded {
+    display: block; /* Show when expanded */
+}
